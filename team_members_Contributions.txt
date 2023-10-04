@@ -1,7 +1,7 @@
 Contributions made by the Team Members 
   ⦿ Ardhi Tarun
     ‣ Convolutional Neural Network (Building CNN from scratch using Keras)
-    ‣ Data Processing
+    ‣ Data Processing (Normalizing the images, etc)
     ‣ Training the Model
     ‣ Model Vidsualisation
     ‣ Model in Production (Discussed with other team member)
