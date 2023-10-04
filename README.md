@@ -11,7 +11,7 @@
 
 - In this Project, I have downloaded the data using the link mentioned below. You can manually download the data from Kaggle. I am using Google Colab for this Project, so the act of reading the data might be different in different platforms.
 
-~~~cpp
+~~~
 !wget --no-check-certificate \
     "https://github.com/atarun121/Image-Classifier/blob/main/kagglecatsanddogs_5340.zip?raw=True" \
     -O "/tmp/PetImages.zip"
