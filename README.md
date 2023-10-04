@@ -11,7 +11,7 @@
 
 - In this Project, I have downloaded the data using the link mentioned below. You can manually download the data from Kaggle. I am using Google Colab for this Project, so the act of reading the data might be different in different platforms.
 
-~~~ 
+~~~ python
 !wget --no-check-certificate \
     "https://github.com/atarun121/Image-Classifier/blob/main/kagglecatsanddogs_5340.zip?raw=True" \
     -O "/tmp/PetImages.zip"
@@ -45,7 +45,7 @@ I have presented 8 pictures of cats and dogs which are present below:
 
 Data augmentation is a strategy that enables practitioners to significantly increase the diversity of data available for training models, without actually collecting new data. Data augmentation techniques such as cropping, padding, and horizontal flipping are commonly used to train large neural networks.
 
-~~~
+~~~ python
 ImageDataGenerator(rescale=1./255,
                                    rotation_range=40,
                                    width_shift_range=0.2,
