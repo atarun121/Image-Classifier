@@ -45,6 +45,7 @@ I have presented 8 pictures of cats and dogs which are present below:
 
 Data augmentation is a strategy that enables practitioners to significantly increase the diversity of data available for training models, without actually collecting new data. Data augmentation techniques such as cropping, padding, and horizontal flipping are commonly used to train large neural networks.
 
+~~~
 ImageDataGenerator(rescale=1./255,
                                    rotation_range=40,
                                    width_shift_range=0.2,
@@ -53,7 +54,7 @@ ImageDataGenerator(rescale=1./255,
                                    zoom_range=0.2,
                                    horizontal_flip=True,
                                    fill_mode="nearest")
-
+~~~
 **Snapshot of the Loss and Accuracy score with Transfer learning** 
 
 ![image](https://github.com/atarun121/Image-Classifier/assets/79056939/b1b4c6d8-8ffd-4fe4-a70f-6ce595fcbed4)
