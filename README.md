@@ -11,16 +11,16 @@
 - In this Project, I have downloaded the data using the link mentioned below. You can manually download the data from Kaggle. I am using Google Colab for this Project, so the act of reading the data might be different in different platforms.
 
 !wget --no-check-certificate \
-
-`    `"https://download.microsoft.com/download/3/E/1/3E1C3F21-ECDB-4869-8368-6DEBA77B919F/kagglecatsanddogs\_3367a.zip" \
-
-`    `-O "/tmp/cats-and-dogs.zip"
+    "https://download.microsoft.com/download/3/E/1/3E1C3F21-ECDB-4869-8368-6DEBA77B919F/kagglecatsanddogs_3367a.zip" \
+    -O "/tmp/cats-and-dogs.zip"
 
 **Snapshot of the Data**
 
 I have presented 8 pictures of cats and dogs which are present below: 
 
 
+
+![image](https://github.com/atarun121/Image-Classifier/assets/79056939/9c78703b-7237-4cfd-a1e0-23a309dfb291)
 
 
 
@@ -42,20 +42,13 @@ I have presented 8 pictures of cats and dogs which are present below:
 Data augmentation is a strategy that enables practitioners to significantly increase the diversity of data available for training models, without actually collecting new data. Data augmentation techniques such as cropping, padding, and horizontal flipping are commonly used to train large neural networks.
 
 ImageDataGenerator(rescale=1./255,
-
-`                                   `rotation\_range=40,
-
-`                                   `width\_shift\_range=0.2,
-
-`                                   `height\_shift\_range=0.2,
-
-`                                   `shear\_range=0.2,
-
-`                                   `zoom\_range=0.2,
-
-`                                   `horizontal\_flip=True,
-
-`                                   `fill\_mode="nearest")
+                                   rotation_range=40,
+                                   width_shift_range=0.2,
+                                   height_shift_range=0.2,
+                                   shear_range=0.2,
+                                   zoom_range=0.2,
+                                   horizontal_flip=True,
+                                   fill_mode="nearest")
 
 **Snapshot of the Loss and Accuracy score with Transfer learning** 
 
