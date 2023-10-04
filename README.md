@@ -6,13 +6,16 @@
 
 - In deep learning, a convolutional neural network is a class of deep neural networks, most commonly applied to analyzing visual imagery. They are also known as shift invariant or space invariant artificial neural networks, based on their shared-weights architecture and translation invariance characteristics.
 
+
 **Getting the Data**
 
 - In this Project, I have downloaded the data using the link mentioned below. You can manually download the data from Kaggle. I am using Google Colab for this Project, so the act of reading the data might be different in different platforms.
 
 !wget --no-check-certificate \
-    "https://download.microsoft.com/download/3/E/1/3E1C3F21-ECDB-4869-8368-6DEBA77B919F/kagglecatsanddogs_3367a.zip" \
-    -O "/tmp/cats-and-dogs.zip"
+    "https://github.com/atarun121/Image-Classifier/blob/main/kagglecatsanddogs_5340.zip?raw=True" \
+    -O "/tmp/PetImages.zip"
+
+     
 
 **Snapshot of the Data**
 
@@ -52,6 +55,7 @@ ImageDataGenerator(rescale=1./255,
 
 **Snapshot of the Loss and Accuracy score with Transfer learning** 
 
+![image](https://github.com/atarun121/Image-Classifier/assets/79056939/b1b4c6d8-8ffd-4fe4-a70f-6ce595fcbed4)
 
 
 
@@ -71,6 +75,7 @@ ImageDataGenerator(rescale=1./255,
 
 
 
+![image](https://github.com/atarun121/Image-Classifier/assets/79056939/9e52e918-51bd-4c00-950a-743eea138ec5)
 
 
 
@@ -92,3 +97,4 @@ ImageDataGenerator(rescale=1./255,
 
 **Snapshot of the output of the Model**
 
+![Screenshot 2023-10-05 004453](https://github.com/atarun121/Image-Classifier/assets/79056939/04e152f1-56f0-482b-946b-753823012a82)
